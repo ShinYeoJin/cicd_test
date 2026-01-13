@@ -9,7 +9,7 @@ on:
 # push할때 jobs 내용 실행. 
 jobs:
   mochi: 
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest #리눅스 환경 설정
     steps:
       - name: "dubai mochi"
         run: echo "두바이 모찌빵"
@@ -19,3 +19,15 @@ jobs:
 
       - name: "egg tart"
         run: echo "에그타르트"
+
+  gelato: 
+    runs-on: ubuntu-latest #리눅스 환경 설정
+    steps:
+      - name: "chocolate gelato"
+        run: echo "초콜릿 젤라토"
+      
+      - name: "strawberry gelato"
+        run: echo "딸기 젤라토"
+
+      - name: "vanilla gelato"
+        run: echo "바닐라 젤라토"
