@@ -12,6 +12,7 @@ export default defineConfig([
     rules: {
       "no-console": "warn",
       "no-unused-vars": "warn",
+      "no-undef": "warn",
       eqeqeq: "warn",
       "no-var": "warn",
       camelcase: "warn",
