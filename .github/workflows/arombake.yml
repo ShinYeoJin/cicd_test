@@ -1,0 +1,21 @@
+name: AromBake
+
+# 브랜치가 master일때만 실행. 
+on:
+  push:
+    branches: [master]
+
+
+# push할때 jobs 내용 실행. 
+jobs:
+  mochi: 
+    runs-on: ubuntu-latest
+    steps:
+      - name: "dubai mochi"
+        run: echo "두바이 모찌빵"
+      
+      - name: "sweet potato"
+        run: echo "고구마 모찌빵"
+
+      - name: "egg tart"
+        run: echo "에그타르트"
